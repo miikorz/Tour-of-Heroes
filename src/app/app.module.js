@@ -22,6 +22,7 @@ var hero_service_1 = require("./hero.service");
 var own_component_1 = require("./own.component");
 var dashboard_component_1 = require("./dashboard.component");
 var app_routing_module_1 = require("./app-routing.module");
+var hero_search_component_1 = require("./hero-search.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -39,7 +40,8 @@ var AppModule = (function () {
                 hero_detail_component_1.HeroDetailComponent,
                 heroes_component_1.HeroesComponent,
                 own_component_1.OwnComponent,
-                dashboard_component_1.DashboardComponent
+                dashboard_component_1.DashboardComponent,
+                hero_search_component_1.HeroSearchComponent
             ],
             bootstrap: [
                 app_component_1.AppComponent
